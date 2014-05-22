@@ -1,0 +1,33 @@
+		body{
+			background-color: #C9D9D0;
+			padding:0;
+			margin:0;
+		}
+
+		#menu, #menu li ul{
+			padding:0;
+			margin:0;
+			list-style:none;
+		}
+
+		#menu li{
+			background-color: #2E9419;
+			padding: 10px 0px;
+			float:left;
+			width: 25%;
+		}
+
+		#menu li a{
+			text-decoration:none;
+			font-size: 20;
+			color:#eee;
+		}
+
+		#menu li ul li{
+			width: 100%;
+		}
+
+		#menu li:hover{
+			background-color: #2ECD0E;
+			cursor:pointer;
+		}
